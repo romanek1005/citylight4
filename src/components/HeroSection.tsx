@@ -62,51 +62,63 @@ const HeroSection = () => {
           />
         </div>
 
-        {/* Transparent Header Inside Hero - Bigger */}
+        {/* Compact Transparent Header */}
         <header className="absolute top-6 left-1/2 transform -translate-x-1/2 z-50">
-          <div className="bg-black/30 backdrop-blur-md rounded-2xl border border-white/20 px-6 py-3">
+          <div className="bg-black/30 backdrop-blur-md rounded-2xl border border-white/20 px-4 py-3 max-w-fit">
             <div className="flex items-center justify-between">
               {/* Logo */}
-              <Link to="/" className="flex items-center mr-8">
-                <img 
-                  src="/images/citysound-white.png" 
-                  alt="Citysound logo" 
-                  className="h-16 w-auto"
-                />
-              </Link>
+              <div className="flex items-center flex-shrink-0">
+                <Link to="/" className="flex items-center">
+                  <img 
+                    src="/images/citysound-white.png" 
+                    alt="Citysound logo" 
+                    className="h-12 md:h-14 lg:h-16 object-contain"
+                    style={{ aspectRatio: 'auto', maxWidth: 'none' }}
+                  />
+                </Link>
+              </div>
 
-              {/* Desktop Navigation - Bigger */}
-              <nav className="hidden md:flex items-center space-x-6">
-                <Link to="/verejne-osvetleni" className="text-white/90 hover:text-white transition-colors text-sm px-3 py-2">
-                  Veřejné osvětlení
-                </Link>
-                <Link to="/dalsi-sluzby" className="text-white/90 hover:text-white transition-colors text-sm px-3 py-2">
-                  Další služby
-                </Link>
-                <Link to="/reference" className="text-white/90 hover:text-white transition-colors text-sm px-3 py-2">
-                  Reference
-                </Link>
-                <Link to="/kontakt" className="text-white/90 hover:text-white transition-colors text-sm px-3 py-2">
-                  Kontakt
-                </Link>
+              {/* Desktop Navigation */}
+              <nav className="hidden md:flex items-center ml-6 lg:ml-8">
+                <div className="flex items-center space-x-3 lg:space-x-4 xl:space-x-6">
+                  <Link to="/verejne-osvetleni" className="text-white/90 hover:text-white transition-colors whitespace-nowrap text-sm lg:text-base px-2 py-1">
+                    Veřejné osvětlení
+                  </Link>
+                  <Link to="/dalsi-sluzby" className="text-white/90 hover:text-white transition-colors whitespace-nowrap text-sm lg:text-base px-2 py-1">
+                    Další služby
+                  </Link>
+                  <Link to="/reference" className="text-white/90 hover:text-white transition-colors whitespace-nowrap text-sm lg:text-base px-2 py-1">
+                    Reference
+                  </Link>
+                  <Link to="/kontakt" className="text-white/90 hover:text-white transition-colors whitespace-nowrap text-sm lg:text-base px-2 py-1">
+                    Kontakt
+                  </Link>
+                </div>
               </nav>
 
-              {/* Contact & CTA - Bigger */}
-              <div className="hidden lg:flex items-center space-x-4 ml-8">
-                <a href="tel:+420722113729" className="flex items-center text-white/90 hover:text-white text-sm">
+              {/* Contact & CTA */}
+              <div className="hidden xl:flex items-center space-x-3 ml-6 flex-shrink-0">
+                <a href="tel:+420722113729" className="flex items-center text-white/90 hover:text-white whitespace-nowrap text-sm">
                   <Phone className="w-4 h-4 mr-2" />
                   +420 722 113 729
                 </a>
                 <Link to="/kontakt">
-                  <Button size="sm" className="bg-red-600 hover:bg-red-700 text-sm px-4 py-2">
+                  <Button size="sm" className="bg-red-600 hover:bg-red-700 whitespace-nowrap text-sm px-3 py-2">
                     Nezávazně poptat
                   </Button>
                 </Link>
               </div>
 
+              {/* Large screen - phone only */}
+              <div className="hidden lg:flex xl:hidden items-center ml-6">
+                <a href="tel:+420722113729" className="flex items-center text-white/90 hover:text-white">
+                  <Phone className="w-4 h-4" />
+                </a>
+              </div>
+
               {/* Mobile menu button */}
               <button 
-                className="md:hidden text-white ml-4"
+                className="md:hidden text-white flex-shrink-0 ml-4"
                 onClick={() => setIsMenuOpen(!isMenuOpen)}
               >
                 {isMenuOpen ? <X className="w-5 h-5" /> : <Menu className="w-5 h-5" />}
@@ -117,14 +129,21 @@ const HeroSection = () => {
             {isMenuOpen && (
               <div className="md:hidden mt-4 pt-4 border-t border-white/20">
                 <nav className="flex flex-col space-y-3">
-                  <Link to="/verejne-osvetleni" className="text-white/90 hover:text-white text-sm">Veřejné osvětlení</Link>
-                  <Link to="/dalsi-sluzby" className="text-white/90 hover:text-white text-sm">Další služby</Link>
-                  <Link to="/reference" className="text-white/90 hover:text-white text-sm">Reference</Link>
-                  <Link to="/kontakt" className="text-white/90 hover:text-white text-sm">Kontakt</Link>
-                  <a href="tel:+420722113729" className="flex items-center text-white/90 text-sm pt-2">
-                    <Phone className="w-4 h-4 mr-2" />
-                    +420 722 113 729
-                  </a>
+                  <Link to="/verejne-osvetleni" className="text-white/90 hover:text-white py-2">Veřejné osvětlení</Link>
+                  <Link to="/dalsi-sluzby" className="text-white/90 hover:text-white py-2">Další služby</Link>
+                  <Link to="/reference" className="text-white/90 hover:text-white py-2">Reference</Link>
+                  <Link to="/kontakt" className="text-white/90 hover:text-white py-2">Kontakt</Link>
+                  <div className="pt-3 border-t border-white/20">
+                    <a href="tel:+420722113729" className="flex items-center text-white/90 py-2">
+                      <Phone className="w-4 h-4 mr-2" />
+                      +420 722 113 729
+                    </a>
+                    <Link to="/kontakt" className="block mt-3">
+                      <Button className="bg-red-600 hover:bg-red-700 w-full text-sm">
+                        Nezávazně poptat
+                      </Button>
+                    </Link>
+                  </div>
                 </nav>
               </div>
             )}
