@@ -157,7 +157,20 @@ const PublicLightingContact = () => {
               </a>
 
               <a 
-                href="mailto:poptavky@citysound.cz"
+                href="tel:+420774456960"
+                className="flex items-center p-6 bg-emerald-50 rounded-xl hover:bg-emerald-100 transition-colors"
+              >
+                <div className="w-12 h-12 bg-emerald-600 rounded-full flex items-center justify-center mr-4">
+                  <Phone className="w-6 h-6 text-white" />
+                </div>
+                <div>
+                  <div className="font-semibold text-gray-900">Telefon 2</div>
+                  <div className="text-emerald-600 text-lg">+420 774 456 960</div>
+                </div>
+              </a>
+
+              <a 
+                href="mailto:citysound@citysound.cz"
                 className="flex items-center p-6 bg-emerald-50 rounded-xl hover:bg-emerald-100 transition-colors"
               >
                 <div className="w-12 h-12 bg-emerald-600 rounded-full flex items-center justify-center mr-4">
@@ -165,7 +178,7 @@ const PublicLightingContact = () => {
                 </div>
                 <div>
                   <div className="font-semibold text-gray-900">E-mail</div>
-                  <div className="text-emerald-600 text-lg">poptavky@citysound.cz</div>
+                  <div className="text-emerald-600 text-lg">citysound@citysound.cz</div>
                 </div>
               </a>
             </div>

@@ -77,10 +77,12 @@ const ServicesSection = () => {
                 </Button>
               </div>
 
-              <div className="bg-white rounded-xl p-6 shadow-sm">
-                <div className="aspect-video bg-gray-100 rounded-lg flex items-center justify-center">
-                  <span className="text-gray-500">Foto z realizace</span>
-                </div>
+              <div className="bg-white rounded-xl overflow-hidden shadow-sm">
+                <img 
+                  src="/images/our-work/20250511_212939.jpg" 
+                  alt="Realizace veřejného osvětlení"
+                  className="w-full aspect-video object-cover"
+                />
               </div>
             </div>
           </div>

@@ -16,7 +16,7 @@ const RadarSection = () => {
 
           <div className="mb-12">
             <img
-              src="https://images.unsplash.com/photo-1487887235947-a955ef187fcc"
+              src="/images/our-work/20250511_212159.jpg"
               alt="Nainstalovaný radar u silnice"
               className="w-full max-w-2xl mx-auto h-80 object-cover rounded-lg shadow-lg"
             />
@@ -31,17 +31,17 @@ const RadarSection = () => {
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
               <img
-                src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6"
+                src="/images/our-work/20250511_212135.jpg"
                 alt="Montáž radaru"
                 className="w-full h-32 object-cover rounded-lg"
               />
               <img
-                src="https://images.unsplash.com/photo-1485827404703-89b55fcc595e"
+                src="/images/our-work/20250226_091248.jpg"
                 alt="Instalovaný radar"
                 className="w-full h-32 object-cover rounded-lg"
               />
               <img
-                src="https://images.unsplash.com/photo-1473091534298-04dcbce3278c"
+                src="/images/our-work/20250511_205703.jpg"
                 alt="Radar při provozu"
                 className="w-full h-32 object-cover rounded-lg"
               />

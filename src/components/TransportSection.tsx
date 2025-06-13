@@ -20,7 +20,7 @@ const TransportSection = () => {
             <div>
               <div className="mb-8">
                 <img
-                  src="https://images.unsplash.com/photo-1493962853295-0fd70327578a"
+                  src="/images/our-work/20250511_211440.jpg"
                   alt="Kontejnerový sklápěč IVECO"
                   className="w-full h-80 object-cover rounded-lg shadow-lg"
                 />

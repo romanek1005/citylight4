@@ -84,7 +84,7 @@ const ExcavatorSection = () => {
             <div>
               <div className="mb-8">
                 <img
-                  src="https://images.unsplash.com/photo-1473091534298-04dcbce3278c"
+                  src="/images/our-work/20250412_091130.jpg"
                   alt="Minibagr Kubota KX-019"
                   className="w-full h-80 object-cover rounded-lg shadow-lg"
                 />
@@ -92,12 +92,12 @@ const ExcavatorSection = () => {
               
               <div className="grid grid-cols-2 gap-4">
                 <img
-                  src="https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7"
+                  src="/images/our-work/IMG_20201109_122403.jpg"
                   alt="Detail pásů minibagru"
                   className="w-full h-32 object-cover rounded-lg"
                 />
                 <img
-                  src="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d"
+                  src="/images/our-work/20250511_213042.jpg"
                   alt="Minibagr s jinou lžící"
                   className="w-full h-32 object-cover rounded-lg"
                 />

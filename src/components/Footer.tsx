@@ -8,25 +8,29 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Company Info */}
           <div className="md:col-span-2">
-            <div className="text-2xl font-bold text-emerald-400 mb-4">
-              Citysound
+            <div className="mb-4">
+              <img 
+                src="/images/citysound-white.png" 
+                alt="Citysound logo" 
+                className="h-16 w-auto"
+              />
             </div>
-            <p className="text-gray-300 mb-6 leading-relaxed">
+            <p className="text-gray-300 mb-6 leading-relaxed max-w-md">
               Specializujeme se na kompletní realizace veřejného osvětlení. 
               Jako jediní na trhu zajišťujeme celý proces od A do Z.
             </p>
             <div className="space-y-2">
-              <a href="tel:+420123456789" className="flex items-center text-gray-300 hover:text-emerald-400">
+              <a href="tel:+420722113729" className="flex items-center text-gray-300 hover:text-emerald-400">
                 <Phone className="w-4 h-4 mr-2" />
-                +420 123 456 789
+                +420 722 113 729
               </a>
-              <a href="mailto:info@citysound.cz" className="flex items-center text-gray-300 hover:text-emerald-400">
+              <a href="mailto:citysound@citysound.cz" className="flex items-center text-gray-300 hover:text-emerald-400">
                 <Mail className="w-4 h-4 mr-2" />
-                info@citysound.cz
+                citysound@citysound.cz
               </a>
               <div className="flex items-center text-gray-300">
                 <MapPin className="w-4 h-4 mr-2" />
-                Praha 10, Česká republika
+                Oznice 101, 756 24 Bystřička
               </div>
             </div>
           </div>

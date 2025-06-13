@@ -142,7 +142,7 @@ const ContactSection = () => {
 
             <div className="space-y-6">
               <a 
-                href="tel:+420123456789"
+                href="tel:+420722113729"
                 className="flex items-center p-4 bg-white rounded-xl shadow-sm hover:shadow-md transition-shadow"
               >
                 <div className="w-12 h-12 bg-emerald-100 rounded-full flex items-center justify-center mr-4">
@@ -150,12 +150,12 @@ const ContactSection = () => {
                 </div>
                 <div>
                   <div className="font-semibold text-gray-900">Telefon</div>
-                  <div className="text-emerald-600">+420 123 456 789</div>
+                  <div className="text-emerald-600">+420 722 113 729</div>
                 </div>
               </a>
 
               <a 
-                href="mailto:info@citysound.cz"
+                href="mailto:citysound@citysound.cz"
                 className="flex items-center p-4 bg-white rounded-xl shadow-sm hover:shadow-md transition-shadow"
               >
                 <div className="w-12 h-12 bg-emerald-100 rounded-full flex items-center justify-center mr-4">
@@ -163,7 +163,7 @@ const ContactSection = () => {
                 </div>
                 <div>
                   <div className="font-semibold text-gray-900">E-mail</div>
-                  <div className="text-emerald-600">info@citysound.cz</div>
+                  <div className="text-emerald-600">citysound@citysound.cz</div>
                 </div>
               </a>
 
@@ -173,7 +173,7 @@ const ContactSection = () => {
                 </div>
                 <div>
                   <div className="font-semibold text-gray-900">Adresa</div>
-                  <div className="text-gray-600">Praha 10, Česká republika</div>
+                  <div className="text-gray-600">Oznice 101, 756 24 Bystřička</div>
                 </div>
               </div>
             </div>

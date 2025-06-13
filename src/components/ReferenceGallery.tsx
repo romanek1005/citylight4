@@ -32,11 +32,11 @@ const ReferenceGallery = () => {
       year: "2024",
       category: "Veřejné osvětlení",
       clientType: "obce",
-      image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64",
+      image: "/images/our-work/20250511_205703.jpg",
       images: [
-        "https://images.unsplash.com/photo-1558618666-fcd25c85cd64",
-        "https://images.unsplash.com/photo-1541888946425-d81bb19240f5",
-        "https://images.unsplash.com/photo-1449824913935-59a10b8d2000"
+        "/images/our-work/20250511_205703.jpg",
+        "/images/our-work/20250511_210358.jpg",
+        "/images/our-work/20250511_211440.jpg"
       ],
       description: "Pro obec Oznice jsme zajistili kompletní rekonstrukci veřejného osvětlení a související výkopové práce pro nové chodníky. Projekt zahrnoval instalaci 45 úsporných LED svítidel a pokládku 800 metrů kabeláže.",
       services: "Veřejné osvětlení, zemní práce"
@@ -49,11 +49,11 @@ const ReferenceGallery = () => {
       year: "2024",
       category: "Veřejné osvětlení",
       clientType: "firmy",
-      image: "https://images.unsplash.com/photo-1513475382585-d06e58bcb0e0",
+      image: "/images/our-work/20250511_212135.jpg",
       images: [
-        "https://images.unsplash.com/photo-1513475382585-d06e58bcb0e0",
-        "https://images.unsplash.com/photo-1581094794329-c8112a89af12",
-        "https://images.unsplash.com/photo-1558618666-fcd25c85cd64"
+        "/images/our-work/20250511_212135.jpg",
+        "/images/our-work/20250511_212159.jpg",
+        "/images/our-work/20250511_212939.jpg"
       ],
       description: "Komplexní realizace osvětlení průmyslového areálu včetně vysokostožárového osvětlení parkovišť a komunikací. Celkem bylo instalováno 120 svítidel různých typů.",
       services: "Veřejné osvětlení, vysokostožárové osvětlení"
@@ -66,11 +66,11 @@ const ReferenceGallery = () => {
       year: "2023",
       category: "Zemní práce",
       clientType: "obce",
-      image: "https://images.unsplash.com/photo-1581094794329-c8112a89af12",
+      image: "/images/our-work/20210630_145321.jpg",
       images: [
-        "https://images.unsplash.com/photo-1581094794329-c8112a89af12",
-        "https://images.unsplash.com/photo-1558618666-fcd25c85cd64",
-        "https://images.unsplash.com/photo-1513475382585-d06e58bcb0e0"
+        "/images/our-work/20210630_145321.jpg",
+        "/images/our-work/20220530_143714.jpg",
+        "/images/our-work/20230219_150700.jpg"
       ],
       description: "Rozsáhlé zemní práce pro novou infrastrukturu města včetně pokládky kabeláže a přípravy základů pro nové osvětlení. Práce proběhly na ploše 5000 m².",
       services: "Zemní práce, pokládka kabelů"
@@ -83,11 +83,11 @@ const ReferenceGallery = () => {
       year: "2023",
       category: "Práce s plošinou",
       clientType: "firmy",
-      image: "https://images.unsplash.com/photo-1449824913935-59a10b8d2000",
+      image: "/images/our-work/20241115_112046.jpg",
       images: [
-        "https://images.unsplash.com/photo-1449824913935-59a10b8d2000",
-        "https://images.unsplash.com/photo-1581094794329-c8112a89af12",
-        "https://images.unsplash.com/photo-1558618666-fcd25c85cd64"
+        "/images/our-work/20241115_112046.jpg",
+        "/images/our-work/20241213_085617.jpg",
+        "/images/our-work/20250226_091248.jpg"
       ],
       description: "Montáž osvětlení ve výškách s využitím naší montážní plošiny Renault Maxity. Celkem 80 hodin práce ve výškách až 18 metrů.",
       services: "Práce s montážní plošinou, montáž svítidel"

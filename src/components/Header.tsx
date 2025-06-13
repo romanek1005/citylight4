@@ -13,8 +13,12 @@ const Header = () => {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <div className="flex items-center">
-            <Link to="/" className="text-2xl font-bold text-emerald-600">
-              Citysound
+            <Link to="/" className="flex items-center">
+              <img 
+                src="/images/citysound-green.png" 
+                alt="Citysound logo" 
+                className="h-16 w-auto"
+              />
             </Link>
           </div>
 
@@ -32,9 +36,6 @@ const Header = () => {
             <Link to="/kontakt" className="text-gray-700 hover:text-emerald-600 transition-colors">
               Kontakt
             </Link>
-            <a href="/#o-nas" className="text-gray-700 hover:text-emerald-600 transition-colors">
-              O nás
-            </a>
           </nav>
 
           {/* Contact Info & CTA */}
@@ -67,7 +68,6 @@ const Header = () => {
               <Link to="/dalsi-sluzby" className="text-gray-700 hover:text-emerald-600">Další služby</Link>
               <Link to="/reference" className="text-gray-700 hover:text-emerald-600">Reference</Link>
               <Link to="/kontakt" className="text-gray-700 hover:text-emerald-600">Kontakt</Link>
-              <a href="/#o-nas" className="text-gray-700 hover:text-emerald-600">O nás</a>
               <div className="flex items-center space-x-2 pt-2">
                 <a href="tel:+420722113729" className="flex items-center text-gray-600">
                   <Phone className="w-4 h-4 mr-2" />

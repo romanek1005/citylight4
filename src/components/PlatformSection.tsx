@@ -19,7 +19,7 @@ const PlatformSection = () => {
             <div>
               <div className="mb-8">
                 <img
-                  src="https://images.unsplash.com/photo-1487887235947-a955ef187fcc"
+                  src="/images/our-work/20241115_112046.jpg"
                   alt="Montážní plošina Renault Maxity"
                   className="w-full h-80 object-cover rounded-lg shadow-lg"
                 />
@@ -27,12 +27,12 @@ const PlatformSection = () => {
               
               <div className="grid grid-cols-2 gap-4">
                 <img
-                  src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6"
+                  src="/images/our-work/20241213_085617.jpg"
                   alt="Plošina při práci"
                   className="w-full h-32 object-cover rounded-lg"
                 />
                 <img
-                  src="https://images.unsplash.com/photo-1485827404703-89b55fcc595e"
+                  src="/images/our-work/20250226_091248.jpg"
                   alt="Detail plošiny"
                   className="w-full h-32 object-cover rounded-lg"
                 />

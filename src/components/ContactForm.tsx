@@ -257,11 +257,11 @@ const ContactForm = () => {
                   Fakturační údaje
                 </h3>
                 <div className="text-gray-700 space-y-1">
-                  <div>IČO: [Doplní klient]</div>
-                  <div>DIČ: [Doplní klient]</div>
+                  <div>IČO: 06689108</div>
+                  <div>DIČ: CZ06689108</div>
                   <div className="text-sm pt-2">
                     Společnost je zapsána v obchodním rejstříku vedeném u Krajského soudu v Ostravě, 
-                    oddíl C, vložka [Doplní klient].
+                    oddíl C, vložka 56723.
                   </div>
                 </div>
               </div>

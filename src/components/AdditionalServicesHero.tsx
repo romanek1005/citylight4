@@ -13,25 +13,25 @@ const AdditionalServicesHero = () => {
     {
       id: 'plosina',
       title: 'Práce s montážní plošinou',
-      image: 'https://images.unsplash.com/photo-1487887235947-a955ef187fcc',
+      image: '/images/our-work/20210107_150459.jpg',
       description: 'Renault Maxity - dosah 18m'
     },
     {
       id: 'minibagr',
       title: 'Zemní práce minibagrem',
-      image: 'https://images.unsplash.com/photo-1461749280684-dccba630e2f6',
+      image: '/images/our-work/20210630_145321.jpg',
       description: 'Kubota KX-019 - 2t'
     },
     {
       id: 'doprava',
       title: 'Autodoprava a kontejnery',
-      image: 'https://images.unsplash.com/photo-1485827404703-89b55fcc595e',
+      image: '/images/our-work/20220530_143714.jpg',
       description: 'Iveco Eurocargo - 8t'
     },
     {
       id: 'radary',
       title: 'Montáž měřičů rychlosti',
-      image: 'https://images.unsplash.com/photo-1473091534298-04dcbce3278c',
+      image: '/images/our-work/20230219_150700.jpg',
       description: 'Profesionální instalace'
     }
   ];

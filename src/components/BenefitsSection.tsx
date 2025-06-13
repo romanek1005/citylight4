@@ -58,11 +58,22 @@ const BenefitsSection = () => {
 
         <div className="text-center mt-12">
           <div className="bg-white bg-opacity-10 backdrop-blur-sm rounded-xl p-8 max-w-4xl mx-auto">
-            <blockquote className="text-xl text-white italic mb-4">
-              "S Citysound spolupracujeme již 5 let a vždy jsme byli spokojeni s kvalitou 
-              a dodržováním termínů. Doporučujeme všem stavebním firmám."
-            </blockquote>
-            <cite className="text-emerald-200">— Projektový manažer, STRABAG a.s.</cite>
+            <div className="flex flex-col md:flex-row items-center gap-8">
+              <div className="md:w-1/3">
+                <img 
+                  src="/images/our-work/20241115_112046.jpg" 
+                  alt="Dokončený projekt osvětlení"
+                  className="w-full h-48 object-cover rounded-lg"
+                />
+              </div>
+              <div className="md:w-2/3">
+                <blockquote className="text-xl text-white italic mb-4">
+                  "S Citysound spolupracujeme již 5 let a vždy jsme byli spokojeni s kvalitou 
+                  a dodržováním termínů. Doporučujeme všem stavebním firmám."
+                </blockquote>
+                <cite className="text-emerald-200">— Projektový manažer, STRABAG a.s.</cite>
+              </div>
+            </div>
           </div>
         </div>
       </div>
